@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form id="signupForm">
+            <input type="text" id="staffName" placeholder="Staff Name" required>
+            <input type="password" id="setPin" placeholder="Set PIN" required>
+            <input type="password" id="confirmPin" placeholder="Confirm PIN" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <select id="departmentYear" required>
+                <option value="IT-3rd Year">IT - 3rd Year</option>
+                <option value="IT-4th Year">IT - 4th Year</option>
+                <option value="ECE-2nd Year">ECE - 2nd Year</option>
+                <option value="ECE-3rd Year">ECE - 3rd Year</option>
+            </select>
+            <button type="button" id="sendOtpBtn">Send OTP</button>
+            <input type="text" id="otp" placeholder="Enter OTP" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+
+    <script src="js/signup.js"></script>
+</body>
+</html>
